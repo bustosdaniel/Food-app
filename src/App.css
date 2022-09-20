@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+.section-content-form{
+  display: flex;
+  margin-bottom: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-container-content {
+  width: 80%;
+  padding-left: 55px;
+  padding-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-container {
+  display: flex;
+  padding: 105px 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section-form input{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid rgb(165, 159, 159);
+  border-radius: 70px;
+  margin-right: 15px;
+}
+
+.section-info{
+  gap: 30px;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.section-form {
+  width: 70%;
+} 
+.section-select {
+  width: 30%;
+}
+
+.btn-container-page{
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-next, .btn-previous{
+  -webkit-box-shadow: -1px 5px 15px 5px rgba(112, 112, 112, 0.35);
+  box-shadow: -1px 5px 15px 5px rgba(112, 112, 112, 0.35);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFF;
+  align-items: center;
+}
+
+.loading-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.loading-image{
+  width: 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loading-image img {
+  width: 100%;
+}
+
+.loading-container p{
+  font-weight: 700;
+  font-size: 22px;
+}
+
+button{
+  -webkit-box-shadow: -1px 5px 15px 5px rgba(112, 112, 112, 0.35);
+  box-shadow: -1px 5px 15px 5px rgba(112, 112, 112, 0.35);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 0 5px;
+  background-color: #FFF;
+}
+
+button:hover{
+  background-color: rgb(226, 219, 219);
+}
+
+button:active{
+  background-color: #ff514e;
+  color: #FFF;
+}
+
+.btn-next:hover{
+  background-color: rgb(226, 219, 219);
+} 
+
+.btn-next:active {
+  background-color: #ff514e;
+  color: #FFF;
+}
+
+.btn-previous:hover{
+  background-color: rgb(226, 219, 219);
+}
+
+.btn-previous:active {
+  color: #FFF;
+  background-color: #ff514e;
 }
