@@ -1,0 +1,87 @@
+.footer-container{
+  padding: 90px 0 80px;
+  background-color: #212121;
+}
+
+.footer-content{
+  justify-content: space-around;
+  display: flex;
+  padding: 0 75px;
+}
+
+.footer-list{
+  padding: 0;
+  margin: 0 75px;
+  display: flex;
+  color: aliceblue;
+}
+
+.footer-list ul{
+  margin: 0;
+  list-style: none;
+}
+
+.footer-list ul li{
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.list-point{
+  padding-left: 15px;
+}
+
+.list-hours{
+  color: #fbb403;
+  padding-left: 15px;
+}
+
+.footer-info-container{
+  margin-left: 100px;
+}
+
+.footer-info-container h2{
+  color: #FFF;
+  margin: 0 0 20px 0;
+  border-bottom: none;
+}
+
+.footer-info div {
+  padding: 8px 0;
+  align-items: center;
+  display: flex;
+}
+
+.footer-info p:hover{
+  color: #fbb403;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.footer-info p{
+  color: #FFF;
+  justify-content: center;
+  margin: 0px 0 0px 8px;
+}
+
+.footer-contact{
+  cursor: pointer;
+  display: flex;
+  margin: 15px 5px 0 0;
+}
+
+.footer-card{
+  width: 25%;
+}
+
+.footer-card-image {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-card-image img{
+  border-radius: 15px;
+  width: 100%;
+  align-items: center;
+}

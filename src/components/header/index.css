@@ -1,0 +1,121 @@
+.app-header {
+  height: 350px;
+  color: white;
+  background-image: url('https://food-g-app.web.app/static/media/banner.10879cd6.jpg');
+}
+
+.app-header img {
+  width: 100%;
+}
+
+.nav-container {
+  padding: 30px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+}
+
+.nav-content-logo img {
+  width: 80px;
+}
+
+.nav-content-info {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-content-info figure {
+  margin: 0;
+}
+
+.nav-content-info ul {
+  align-items: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-content-info li:hover {
+  color: #ff514e;
+  cursor: pointer;
+}
+
+.nav-content-info li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-content ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.nav-content-images {
+  display: flex;
+  cursor: pointer;
+}
+
+.images-info {
+  margin: 10px 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-signin p {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.nav-signin {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.info-container {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container p {
+  font-size: 18px;
+  align-items: center;
+}
+
+.info-container p {
+  color: #FFF;
+  cursor: pointer;
+}
+
+.info-container p:hover{
+  color: #ff514e;
+  transition: 0.4s;
+}
+
+.info-container p:nth-last-child(1) {
+  color: #ff514e;
+}
+
+.stripe {
+  padding: 0 15px;
+  color: #FFF;
+}
